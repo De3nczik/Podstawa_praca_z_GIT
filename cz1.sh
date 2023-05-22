@@ -1,8 +1,12 @@
 if [[ $1 == "--date" ]]; then
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 >>>>>>> 53dcc5465d24c10814c2030f621015b6fa7fca24
+=======
+    
+>>>>>>> logs
     echo $(date +"%Y-%m-%d")
 elif [[ $1 == "--logs" ]]; then
     if [[ -n $2 && $2 =~ ^[0-9]+$ ]]; then
