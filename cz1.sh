@@ -10,7 +10,7 @@ elif [[ $1 == "--logs" ]]; then
             echo "Data: $(date +"%Y-%m-%d")" >> $filename
         done
     else
-        # Utworzenie 100 plików log
+        
         for ((i=1; i<=100; i++)); do
             filename="log$i.txt"
             echo "Nazwa pliku: $filename" > $filename
