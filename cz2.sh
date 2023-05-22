@@ -22,6 +22,8 @@ elif [[ $1 == "--logs" || $1 == "-l" ]]; then
         done
     fi
 >>>>>>> logs
+=======
 elif [[ $1 == "--init" ]]; then
     git clone https://github.com/De3nczik/Podstawa_praca_z_GIT.git .
     export PATH=$PATH:$(pwd)
+>>>>>>> init 
